@@ -1,1 +1,56 @@
-Mia er vores mor
+/* HENVENDER SIG TIL FORSIDE SEKTIONEN */
+
+.top_index {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    height: 100%;
+}
+
+.bottom_index {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    margin-top: 20px;
+}
+
+.column_wide {
+    background-color: green;
+    flex-grow: 3;
+    flex-basis: 400px;
+    justify-content: flex-start;
+}
+
+.column_narrow {
+    background-color: green;
+    justify-content: flex-end;
+}
+
+.top {
+    background-color: blue;
+    flex-basis: 400px;
+    align-self: flex-start;
+}
+
+.bottom {
+    background-color: blue;
+    flex-basis: 400px;
+    align-self: flex-end;
+}
+
+img {
+    width: 100%;
+}
+
+.column {
+    justify-content: space-between;
+    border: 1px solid black;
+    flex-basis: 350px;
+    height: 300px;
+}
