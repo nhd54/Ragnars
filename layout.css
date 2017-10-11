@@ -54,3 +54,31 @@ img {
     flex-basis: 350px;
     height: 300px;
 }
+
+.farvekode1 {
+    background-color: #bfb488;
+}
+
+.farvekode2 {
+    background-color: #8c8c5e;
+}
+
+.farvekode3 {
+    background-color: #dde8cf;
+}
+
+.farvekode4 {
+    background-color: #191d15;
+}
+
+.farvekode5 {
+    background-color: #756f4d;
+}
+
+.farvekode6 {
+    background-color: #fdf3bf;
+}
+
+.farvekode7 {
+    background-color: #0b0f0d;
+}
