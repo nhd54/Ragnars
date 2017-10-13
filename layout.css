@@ -130,7 +130,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+	color: white;
 }
 
 footer {
@@ -160,14 +160,10 @@ h2 {
 }
 
 p {
-<<<<<<< HEAD
-    font-family: 'calibri';
-    margin: 10px 10px;
-    font-size: 1vw;
-=======
 	font-family: 'calibri';
 	margin: 10px 10px;
->>>>>>> origin/master
+	font-size: 1vw;
+
 }
 
 video {
@@ -332,14 +328,11 @@ img {
 }
 
 .farvekode4 {
-<<<<<<< HEAD
-    background-color: rgba(23, 25, 14, 0.38);
-    text-align: center;
-    font-size: 1vw;
-=======
+
 	background-color: rgba(23, 25, 14, 0.38);
 	text-align: center;
->>>>>>> origin/master
+	font-size: 1vw;
+
 }
 
 .farvekode5 {
