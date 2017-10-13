@@ -16,6 +16,21 @@ section {
 	padding: 10px 0;
 }
 
+ul {
+	list-style-type: none;
+	display: inline;
+
+}
+
+li {
+	display: inline;
+}
+
+.hamburger,
+.cross {
+	display: none;
+}
+
 
 /* HENVENDER SIG TIL FORSIDE SEKTIONEN */
 
@@ -154,8 +169,19 @@ video {
 
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+}
+
+li a {
+	display: block;
+}
+
 header img {
-	width: 150px;
+	width: 190px;
 	height: 150px;
 	padding-top: 40px;
 }
@@ -171,9 +197,9 @@ img {
 .ravn {
 	width: 200px;
 	height: 140px;
-	position: absolute;
+	position: fixed;
 	right: -1px;
-	bottom: -50px;
+	bottom: 0px;
 }
 
 .center {
@@ -184,8 +210,8 @@ img {
 .column {
 	justify-content: space-between;
 
-	flex-basis: 240px;
-	margin-left: 10px;
+	flex-basis: 24%;
+	margin-left: 7px;
 	margin-bottom: 20px;
 	height: 200px;
 }
@@ -247,6 +273,7 @@ img {
 
 	.ravn {
 		bottom: 30px;
+		position: absolute;
 	}
 
 	.front_img {
@@ -256,6 +283,11 @@ img {
 
 	h2 {
 		text-align: center;
+	}
+
+	.hamburger,
+	.cross {
+		display: block;
 	}
 }
 
@@ -297,5 +329,5 @@ img {
 }
 
 .farvekode8 {
-	background-color: rgba(23, 25, 14, 0.38)
+	background-color: rgba(23, 25, 14, 0.38);
 }
