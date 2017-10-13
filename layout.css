@@ -34,8 +34,7 @@ li {
 
 /* HENVENDER SIG TIL FORSIDE SEKTIONEN */
 
-.sectionwrapper {
-    margin: auto 170px;
+.sectionwrapper {margin: auto 170px;
     min-height: 600px;
 }
 
@@ -49,8 +48,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .left {
@@ -167,7 +165,7 @@ h2 {
 
 p {
     font-family: 'calibri';
-    margin: 10px 10px;
+    10px 10px 10px 0;
     font-size: 1vw;
 
 }
@@ -259,10 +257,7 @@ img {
 
 }
 
-.front_img {
-    margin-top: 10px;
-    margin-right: 10px;
-}
+.front_img {}
 
 .fb {}
 
@@ -299,10 +294,7 @@ img {
         bottom: 240px;
         position: absolute;
     }
-    .front_img {
-        margin-top: 10px;
-        margin-left: 125px;
-    }
+    .front_img {}
 
     h2 {
         text-align: center;
@@ -319,10 +311,7 @@ img {
         bottom: 96px;
         position: absolute;
     }
-    .front_img {
-        margin-top: 10px;
-        margin-left: 125px;
-    }
+    .front_img {}
 
     li {
         width: 85%;
@@ -389,9 +378,7 @@ img {
         flex-basis: 49%;
     }
 
-    .front_img {
-        margin: 50px 50px;
-    }
+    .front_img {}
 
     .ravn {
         position: absolute;
@@ -420,9 +407,7 @@ img {
         flex-basis: 49%;
     }
 
-    .front_img {
-        margin: 50px 50px;
-    }
+    .front_img {}
 
     .ravn {
         position: absolute;
