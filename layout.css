@@ -37,6 +37,7 @@ li {
 .sectionwrapper {
 	margin: auto 170px;
 	min-height: 600px;
+
 }
 
 .top_index {
@@ -46,11 +47,13 @@ li {
 }
 
 .column_content {
+
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	margin-left: 10px;
 	padding-bottom: 10px;
+
 }
 
 .left {
@@ -174,8 +177,9 @@ h2 {
 }
 
 p {
+
 	font-family: 'calibri';
-	margin: 10px 10px;
+	10px 10px 10px 0;
 	font-size: 1vw;
 
 }
@@ -267,13 +271,15 @@ img {
 
 }
 
-.front_img {
+<<<<<<< HEAD .front_img {
 	margin-top: 10px;
 	margin-right: 10px;
 	width: 90%;
 }
 
-.so_me {
+=======.front_img {}
+
+> > > > > > > origin/master .so_me {
 	text-align: center;
 }
 
@@ -290,7 +296,7 @@ img {
 @media screen and (max-width: 400px) and (orientation: landscape) {}
 
 @media screen and (max-width: 400px) and (orientation: portrait) {
-	.sectionwrapper {
+	<<<<<<< HEAD .sectionwrapper {
 		margin: 0;
 	}
 	.column {
@@ -475,11 +481,96 @@ img {
 	nav a {
 		margin: 0;
 	}
+	=======.sectionwrapper {
+		margin: 0;
+	}
+	.column {
+		flex-basis: 400px;
+		margin-left: 0;
+	}
 
+	.column_content {
+		width: 100%;
+		margin-right: 10px;
+	}
+
+	video {
+		width: 100%;
+		margin-top: 125px;
+	}
+
+
+	.ravn {
+		bottom: 240px;
+		position: absolute;
+	}
+	.front_img {}
+
+	h2 {
+		text-align: center;
+	}
+
+	.hamburger,
+	.cross {
+		display: block;
+	}
+	h2 {
+		text-align: center;
+	}
+	.ravn {
+		bottom: 96px;
+		position: absolute;
+	}
+	.front_img {}
+
+	li {
+		width: 85%;
+		display: block;
+		background-image: url(img/bjaelke.jpg);
+		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
+		border-top: 3px solid rgba(253, 243, 191, 0.50);
+
+	}
+	ul {
+		float: right;
+		width: 30%;
+		margin-top: 40px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.hamburger,
+	.cross {
+		display: block;
+		position: fixed;
+		right: 17px;
+		background-color: black;
+		height: 25px;
+		border: none;
+		width: 25px;
+		color: white;
+		top: 20px;
+
+	}
+	h2 {
+		text-align: center;
+	}
+
+	nav {
+		border: none;
+		background-image: none;
+	}
+
+	nav a {
+		margin: 0;
+	}
+	> > > > > > > origin/master
 }
 
 @media screen and (min-width:401px) and (max-width: 768px) and (orientation: portrait) {
-	.sectionwrapper {
+	<<<<<<< HEAD .sectionwrapper {
 		margin: 0;
 	}
 
@@ -536,6 +627,61 @@ img {
 		position: absolute;
 		bottom: 185px;
 	}
+
+	.sectionwrapper {
+		margin: 0;
+	}
+
+	.column_content {
+		width: 100%;
+		margin: 0;
+	}
+
+	video {
+		width: 100%;
+		margin-top: 135px;
+	}
+
+	.column {
+		flex-basis: 49%;
+	}
+
+	.front_img {}
+
+	.ravn {
+		position: absolute;
+		bottom: 440px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) and (orientation: landscape) {
+	.sectionwrapper {
+		margin: 0;
+	}
+
+	.column_content {
+		width: 99%;
+		margin: 0;
+	}
+
+	video {
+		width: 65%;
+		height: 75%;
+		margin: 100px auto;
+		border: none;
+	}
+
+	.column {
+		flex-basis: 49%;
+	}
+
+	.front_img {}
+
+	.ravn {
+		position: absolute;
+		bottom: 185px;
+	}
+
 }
 
 @media screen and (min-width:401) and (max-width:768px) {}
