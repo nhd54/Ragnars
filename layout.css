@@ -1,271 +1,276 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 @font-face {
-    font-family: 'kf';
-    src: url('fonts/webfont/kellsflf-webfont.woff2') format('woff2'),
-    url('fonts/webfont/kellsflf-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'kf';
+	src: url('fonts/webfont/kellsflf-webfont.woff2') format('woff2'),
+	url('fonts/webfont/kellsflf-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 section {
-    padding: 10px 0;
+	padding: 10px 0;
 }
 
 ul {
-    list-style-type: none;
-    display: inline;
+	list-style-type: none;
+	display: inline;
 
 }
 
 li {
-    display: inline;
+	display: inline;
 }
 
 .hamburger,
 .cross {
-    display: none;
+	display: none;
 }
 
 
 /* HENVENDER SIG TIL FORSIDE SEKTIONEN */
 
 .sectionwrapper {
-    margin: auto 170px;
-    min-height: 600px;
+	margin: auto 170px;
+	min-height: 600px;
 }
 
 .top_index {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
 .column_content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 10px;
-    padding-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-left: 10px;
+	padding-bottom: 10px;
 }
 
 .left {
-    flex-basis: 300px;
-    flex-grow: 1;
+	flex-basis: 300px;
+	flex-grow: 1;
 }
 
 #om .left {
-    flex-basis: 500px;
+	flex-basis: 500px;
 }
 
 .right {
-    flex-basis: 300px;
-    flex-grow: 1;
+	flex-basis: 300px;
+	flex-grow: 1;
 }
 
 .bottom_index {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .column_wide {
-    margin-top: 50px;
-    flex-grow: 3;
-    margin-right: 10px;
-    flex-basis: 400px;
-    justify-content: flex-start;
+	margin-top: 50px;
+	flex-grow: 3;
+	margin-right: 10px;
+	flex-basis: 400px;
+	justify-content: flex-start;
 }
 
 #om .column_wide {
-    margin-left: 40px;
+	margin-left: 40px;
 }
 
 .column_narrow {
 
-    justify-content: flex-end;
+	justify-content: flex-end;
 }
 
 .top {
-    background-color: blue;
-    flex-basis: 400px;
-    align-self: flex-start;
+	background-color: blue;
+	flex-basis: 400px;
+	align-self: flex-start;
 }
 
 .bottom {
-    background-color: blue;
-    flex-basis: 400px;
-    align-self: flex-end;
+	background-color: blue;
+	flex-basis: 400px;
+	align-self: flex-end;
 }
 
 header {
-    background-image: url(img/banner_baggrund.jpg);
-    background-size: cover;
-    background-position: center;
+	background-image: url(img/banner_baggrund.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 nav {
-    background-image: url(img/bjaelke.jpg);
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    margin-top: 5px;
-    width: 100%;
-    text-align: center;
-    font-family: 'kf';
-    font-size: 1.5em;
-    border-bottom: 3px solid rgba(253, 243, 191, 0.50);
-    border-top: 3px solid rgba(253, 243, 191, 0.50);
+	background-image: url(img/bjaelke.jpg);
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	margin-top: 5px;
+	width: 100%;
+	text-align: center;
+	font-family: 'kf';
+	font-size: 1.5em;
+	border-bottom: 3px solid rgba(253, 243, 191, 0.50);
+	border-top: 3px solid rgba(253, 243, 191, 0.50);
 
 
 }
 
 nav a {
-    margin-left: 60px;
-    text-decoration: none;
-    color: black;
+	margin-left: 60px;
+	text-decoration: none;
+	color: black;
 
 }
 
 nav a:hover {
-    color: white;
+	color: white;
 }
 
 footer {
-    background-image: url(img/footer_baggrund.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 50px;
-    padding-top: 10px;
+	background-image: url(img/footer_baggrund.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 50px;
+	padding-top: 10px;
 
 
 }
 
 .so_me {
-    background-image: url(img/bjaelke.jpg);
-    background-size: cover;
-    background-position: center;
-    flex-basis: 300px;
-    flex-grow: 1;
-    border-bottom: 3px solid rgba(253, 243, 191, 0.50);
-    border-top: 3px solid rgba(253, 243, 191, 0.50);
+	background-image: url(img/bjaelke.jpg);
+	background-size: cover;
+	background-position: center;
+	flex-basis: 300px;
+	flex-grow: 1;
+	border-bottom: 3px solid rgba(253, 243, 191, 0.50);
+	border-top: 3px solid rgba(253, 243, 191, 0.50);
 }
 
 h2 {
-    font-family: 'kf';
-    font-size: 1.3em;
-    margin-top: 5px;
-    margin-left: 5px;
+	font-family: 'kf';
+	font-size: 1.3em;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 
 p {
-    font-family: 'calibri';
-    margin: 10px 10px;
-    font-size: 1vw;
+	font-family: 'calibri';
+	margin: 10px 10px;
+	font-size: 1vw;
 
 }
 
 video {
-    width: 350px;
-    height: 197px;
-    border-top: 15px solid black;
-    border-bottom: 15px solid black;
-    margin-top: 50px;
-    margin-right: 8px;
+	width: 350px;
+	height: 197px;
+	border-top: 15px solid black;
+	border-bottom: 15px solid black;
+	margin-top: 50px;
+	margin-right: 8px;
 
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
 }
 
 
 header img {
 
-    width: 190px;
-    height: 150px;
-    padding-top: 40px;
+	width: 190px;
+	height: 150px;
+	padding-top: 40px;
 
 }
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 .small_images {
-    width: 15%;
+	width: 15%;
 }
 
 .ravn {
 
-    width: 200px;
-    height: 140px;
-    position: fixed;
-    right: -1px;
-    bottom: 10px;
+	width: 200px;
+	height: 140px;
+	position: fixed;
+	right: -1px;
+	bottom: 10px;
 
 }
 
 .center {
-    display: block;
-    margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
 
 .column {
-    justify-content: space-between;
+	justify-content: space-between;
 
-    flex-basis: 24%;
-    margin-left: 0.8%;
-    margin-bottom: 20px;
-    height: 200px;
+	flex-basis: 24%;
+	margin-left: 0.8%;
+	margin-bottom: 20px;
+	height: 200px;
 
 }
 
 #om .column {
-    margin-left: 0;
-    flex-basis: 490px;
+	margin-left: 0;
+	flex-basis: 490px;
 
 }
 
 #om .column:last-child {
-    margin-left: 31px;
+	margin-left: 31px;
 }
 
 .person {
-    flex-basis: 328px;
+	flex-basis: 328px;
 }
 
 .person:nth-child(2) {
-    margin: 0px 13px;
+	margin: 0px 13px;
 }
 
 .column h2 {
-    text-align: center;
+	text-align: center;
 }
 
 .column_context {
-    justify-content: space-between;
-    margin-right: 10px;
+	justify-content: space-between;
+	margin-right: 10px;
 
 }
 
 .front_img {
-    margin-top: 10px;
-    margin-right: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 90%;
+}
+
+.so_me {
+	text-align: center;
 }
 
 .so_me .fb {
-    width: 2vw;
-    flex-basis: 300px;
-    flex-grow: 1;
+	width: 2vw;
+	flex-basis: 300px;
+	flex-grow: 1;
 }
 
 /*----------------------------Media quary--------------------------------- */
@@ -273,54 +278,55 @@ img {
 @media screen and (max-width: 400px) and (orientation: landscape) {}
 
 @media screen and (max-width: 400px) and (orientation: portrait) {
-    .sectionwrapper {
-        margin: 0;
-    }
-    .column {
-        flex-basis: 400px;
-        margin-left: 0;
-    }
+	.sectionwrapper {
+		margin: 0;
+	}
+	.column {
+		flex-basis: 400px;
+		margin-left: 0;
+	}
 
-    .column_content {
-        width: 100%;
-        margin-right: 10px;
-    }
+	.column_content {
+		width: 100%;
+		margin-right: 10px;
+	}
 
-    video {
-        width: 100%;
-        margin-top: 125px;
-    }
+	video {
+		width: 100%;
+		margin-top: 125px;
+	}
 
-<<<<<<< HEAD
-    .ravn {
-        bottom: 240px;
-        position: absolute;
-    }
-    .front_img {
-        margin-top: 10px;
-        margin-left: 125px;
-    }
 
-    h2 {
-        text-align: center;
-    }
 
-    .hamburger,
-    .cross {
-        display: block;
-    }
-    h2 {
-        text-align: center;
-    }
-=======
+
+	h2 {
+		text-align: center;
+	}
+
+	.so_me p {
+		text-align: center;
+		font-size: 0.62em;
+	}
+
+	.so_me .fb {
+		width: 7vw;
+		flex-basis: 300px;
+		flex-grow: 1;
+	}
+
+
+	.hamburger,
+	.cross {
+		display: block;
+	}
+	h2 {
+		text-align: center;
+	}
 	.ravn {
 		bottom: 96px;
 		position: absolute;
 	}
-	.front_img {
-		margin-top: 10px;
-		margin-left: 125px;
-	}
+
 
 	li {
 		width: 85%;
@@ -356,7 +362,7 @@ img {
 	h2 {
 		text-align: center;
 	}
->>>>>>> origin/master
+
 
 	nav {
 		border: none;
@@ -439,38 +445,38 @@ img {
 /*--------------------------Media quary slut------------------------------ */
 
 .farvekode1 {
-    background-color: #bfb488;
+	background-color: #bfb488;
 }
 
 .farvekode2 {
-    background-color: #8c8c5e;
+	background-color: #8c8c5e;
 }
 
 .farvekode3 {
-    background-color: #dde8cf;
+	background-color: #dde8cf;
 }
 
 .farvekode4 {
 
-    background-color: rgba(23, 25, 14, 0.38);
-    text-align: center;
-    font-size: 1vw;
+	background-color: rgba(23, 25, 14, 0.38);
+	text-align: center;
+	font-size: 1vw;
 
 }
 
 .farvekode5 {
-    background-color: #756f4d;
+	background-color: #756f4d;
 }
 
 .farvekode6 {
-    background-color: #fdf3bf;
+	background-color: #fdf3bf;
 }
 
 .farvekode7 {
-    background-color: #0b0f0d;
+	background-color: #0b0f0d;
 }
 
 .farvekode8 {
-    background-color: rgba(23, 25, 14, 0.38);
+	background-color: rgba(23, 25, 14, 0.38);
 
 }
