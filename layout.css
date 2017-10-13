@@ -114,6 +114,10 @@ nav a {
 
 }
 
+nav a:hover {
+    color: white;
+}
+
 footer {
     background-image: url(img/footer_baggrund.jpg);
     background-size: cover;
@@ -143,6 +147,7 @@ h2 {
 p {
     font-family: 'calibri';
     margin: 10px 10px;
+    font-size: 1vw;
 }
 
 video {
@@ -283,6 +288,7 @@ img {
 .farvekode4 {
     background-color: rgba(23, 25, 14, 0.38);
     text-align: center;
+    font-size: 1vw;
 }
 
 .farvekode5 {
