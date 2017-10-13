@@ -2,13 +2,36 @@
 <html lang="da">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="layout.css">
-    <title>Redesign hjemmeside</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+					if ($(window).width() < 481) {
+						$(".cross").hide();
+						$(".menu1").hide();
+						$(".hamburger").click(function() {
+							$(".menu1").show();
+							$(".cross").show();
+							$(".hamburger").hide();
+
+						});
+						$(".cross").click(function() {
+							$(".cross").hide();
+							$(".menu1").hide();
+							$(".hamburger").show();
+						});
+
+					});
+	</script>
+	<link rel="stylesheet" href="layout.css">
+
+
+	<title>Redesign hjemmeside</title>
 </head>
 
 <body>
+<<<<<<< HEAD
     <header>
 
         <nav>
@@ -57,8 +80,78 @@
                     <h2>Nordisk mytholagi</h2><img src="img/hammer_ikon.png" class="center small_images">
                     <p>Her er der er mulighed for at få Undervisning i Nordisk mytologi, Havamål, Runekundskab og lav udesidning under trygge rammer.
 
+=======
+
+	<header>
+
+		<nav>
+			<a href="index.html">Forside</a>
+			<a href="about.html">Om</a>
+			<a href="#aktiviteter">Aktiviteter</a>
+			<a href="#medlem">Medlem</a>
+			<a href="#kontakt">Kontakt</a>
+
+		</nav>
+		<img src="img/logo.png" class="center" alt="img_logo">
+
+	</header>
+
+	<section id="forside" class="farvekode2">
+		<div class="sectionwrapper farvekode3">
+			<div class="top_index">
+				<div class="column_wide">
+					<div class="column_content farvekode8">
+						<div class="column_context left">
+							<h2>Astro Ungdom</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto fugiat modi explicabo sequi illum minus aspernatur quas eveniet sapiente quia, iste consequatur quae aut dignissimos numquam deleniti unde in, veritatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur obcaecati consectetur error! Eligendi corrupti, ut impedit nihil mollitia, in dicta, reprehenderit non ab deserunt delectus porro quia fugit voluptatum expedita!</p>
+						</div>
+						<div class="column_context right">
+							<img src="img/Triquetra.png" class="center front_img">
+						</div>
+					</div>
+
+				</div>
+				<div class="column_narrow">
+					<div class="column_content">
+						<video controls>
+
+							<source src="video/ragnars_sonnerogdotre_grp30.mp4">
+						</video>
+					</div>
+>>>>>>> origin/master
 
 
+				</div>
+
+
+
+			</div>
+
+			<div class="bottom_index">
+				<div class="column farvekode4">
+					<h2>Nordisk mytholagi</h2><img src="img/hammer_ikon.png" class="center small_images">
+					<p>Her er der er mulighed for at få Undervisning i Nordisk mytologi, Havamål, Runekundskab og lav udesidning under trygge rammer.
+
+
+
+				</div>
+				<div class="column farvekode4">
+					<h2>Natur</h2><img src="img/baal_ikon.png" class="center small_images">
+					<p>Her kan du lære at lave bål, genkende fugle, træer og blomster, indsamle urter, rødder, bær mm. Samt fa kendskab til helbredsfordele ved urter og lære førstehjælp.</p>
+
+				</div>
+				<div class="column farvekode4">
+					<h2>Vikinge aktiviteter</h2><img src="img/hjelm_ikon.png" class="center small_images">
+					<p>Her kan du alt fra at danse trampe dans og synge ballader, lave håndværk, smykker, sy dragter og meget mere. Du kan også lære om de forskellige kampkundskaber.</p>
+
+				</div>
+				<div class="column farvekode4">
+					<h2>Udflugter</h2><img src="img/skib_ikon.png" class="center small_images">
+					<p>Her har du muligheden for at deltage i udflugter til vikingemarkeder, Lejre forsøgscenter, gamle helligsteder og meget mere.</p>
+
+				</div>
+
+<<<<<<< HEAD
                 </div>
                 <div class="column farvekode4">
                     <h2>Natur</h2><img src="img/baal_ikon.png" class="center small_images">
@@ -102,12 +195,40 @@
             <div class="link"></div>
             <div class="link"></div>
             <div class="link"></div>
+=======
 
 
-        </div>
+			</div>
 
 
-    </footer>
+
+
+		</div>
+
+
+
+
+	</section>
+
+
+
+	<footer>
+		<img src="img/ravn.png" class="ravn">
+
+		<div class="so_me">
+
+			<div class="link">facebook</div>
+			<div class="link"></div>
+			<div class="link"></div>
+			<div class="link"></div>
+			<div class="link"></div>
+>>>>>>> origin/master
+
+
+		</div>
+
+
+	</footer>
 
 </body>
 
