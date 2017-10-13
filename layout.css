@@ -137,24 +137,34 @@ nav a:hover {
 }
 
 footer {
+
 	background-image: url(img/footer_baggrund.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 50px;
+	height: 150px;
 	padding-top: 10px;
 
 
 }
 
 .so_me {
+
 	background-image: url(img/bjaelke.jpg);
-	background-size: cover;
-	background-position: center;
+	background-repeat: no-repeat;
+	height: 52px;
 	flex-basis: 300px;
 	flex-grow: 1;
 	border-bottom: 3px solid rgba(253, 243, 191, 0.50);
 	border-top: 3px solid rgba(253, 243, 191, 0.50);
+
 }
+
+.so_me p {
+	width: 74%;
+	margin-left: 13%;
+}
+
+
 
 h2 {
 	font-family: 'kf';
@@ -271,8 +281,10 @@ img {
 	width: 2vw;
 	flex-basis: 300px;
 	flex-grow: 1;
+	float: right;
 }
 
+=======
 /*----------------------------Media quary--------------------------------- */
 
 @media screen and (max-width: 400px) and (orientation: landscape) {}
@@ -363,6 +375,97 @@ img {
 		text-align: center;
 	}
 
+
+	nav {
+		border: none;
+		background-image: none;
+	}
+
+	nav a {
+		margin: 0;
+	}
+	.sectionwrapper {
+		margin: 0;
+	}
+	.column {
+		flex-basis: 400px;
+		margin-left: 0;
+	}
+
+	.column_content {
+		width: 100%;
+		margin-right: 10px;
+	}
+
+	video {
+		width: 100%;
+		margin-top: 125px;
+	}
+
+
+	.ravn {
+		bottom: 240px;
+		position: absolute;
+	}
+	.front_img {
+		margin-top: 10px;
+		margin-left: 125px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.hamburger,
+	.cross {
+		display: block;
+	}
+	h2 {
+		text-align: center;
+	}
+	.ravn {
+		bottom: 96px;
+		position: absolute;
+	}
+	.front_img {
+		margin-top: 10px;
+		margin-left: 125px;
+	}
+
+	li {
+		width: 85%;
+		display: block;
+		background-image: url(img/bjaelke.jpg);
+		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
+		border-top: 3px solid rgba(253, 243, 191, 0.50);
+
+	}
+	ul {
+		float: right;
+		width: 30%;
+		margin-top: 40px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.hamburger,
+	.cross {
+		display: block;
+		position: fixed;
+		right: 17px;
+		background-color: black;
+		height: 25px;
+		border: none;
+		width: 25px;
+		color: white;
+		top: 20px;
+
+	}
+	h2 {
+		text-align: center;
+	}
 
 	nav {
 		border: none;
