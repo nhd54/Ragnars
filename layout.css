@@ -291,6 +291,7 @@ img {
         margin-top: 125px;
     }
 
+<<<<<<< HEAD
     .ravn {
         bottom: 240px;
         position: absolute;
@@ -311,10 +312,124 @@ img {
     h2 {
         text-align: center;
     }
+=======
+	.ravn {
+		bottom: 96px;
+		position: absolute;
+	}
+	.front_img {
+		margin-top: 10px;
+		margin-left: 125px;
+	}
+
+	li {
+		width: 85%;
+		display: block;
+		background-image: url(img/bjaelke.jpg);
+		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
+		border-top: 3px solid rgba(253, 243, 191, 0.50);
+
+	}
+	ul {
+		float: right;
+		width: 30%;
+		margin-top: 40px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.hamburger,
+	.cross {
+		display: block;
+		position: fixed;
+		right: 17px;
+		background-color: black;
+		height: 25px;
+		border: none;
+		width: 25px;
+		color: white;
+		top: 20px;
+
+	}
+	h2 {
+		text-align: center;
+	}
+>>>>>>> origin/master
+
+	nav {
+		border: none;
+		background-image: none;
+	}
+
+	nav a {
+		margin: 0;
+	}
 
 }
 
-@media screen and (min-width: 768px) and (max-width:1024px) and (orientation: landscape) {}
+@media screen and (min-width:401px) and (max-width: 768px) and (orientation: portrait) {
+	.sectionwrapper {
+		margin: 0;
+	}
+
+	.column_content {
+		width: 100%;
+		margin: 0;
+	}
+
+	video {
+		width: 100%;
+		margin-top: 135px;
+	}
+
+	.column {
+		flex-basis: 49%;
+	}
+
+	.front_img {
+		margin: 50px 50px;
+	}
+
+	.ravn {
+		position: absolute;
+		bottom: 440px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) and (orientation: landscape) {
+	.sectionwrapper {
+		margin: 0;
+	}
+
+	.column_content {
+		width: 99%;
+		margin: 0;
+	}
+
+	video {
+		width: 65%;
+		height: 75%;
+		margin: 100px auto;
+		border: none;
+	}
+
+	.column {
+		flex-basis: 49%;
+	}
+
+	.front_img {
+		margin: 50px 50px;
+	}
+
+	.ravn {
+		position: absolute;
+		bottom: 185px;
+	}
+}
+
+@media screen and (min-width:401) and (max-width:768px) {}
 
 @media screen and (min-width: 1024px) and (max-width:2560px) {}
 
