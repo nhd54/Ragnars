@@ -183,9 +183,6 @@ ul {
 	width: 60px;
 }
 
-li a {
-	display: block;
-}
 
 header img {
 
@@ -222,7 +219,7 @@ img {
 	justify-content: space-between;
 
 	flex-basis: 24%;
-	margin-left: 8px;
+	margin-left: 0.8%;
 	margin-bottom: 20px;
 	height: 200px;
 
@@ -284,7 +281,7 @@ img {
 	}
 
 	.ravn {
-		bottom: 30px;
+		bottom: 240px;
 		position: absolute;
 	}
 	.front_img {
@@ -300,7 +297,7 @@ img {
 	.cross {
 		display: block;
 	}
-	=======h2 {
+	h2 {
 		text-align: center;
 	}
 

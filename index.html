@@ -7,22 +7,24 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-					if ($(window).width() < 481) {
-						$(".cross").hide();
-						$(".menu1").hide();
-						$(".hamburger").click(function() {
-							$(".menu1").show();
-							$(".cross").show();
-							$(".hamburger").hide();
+			if ($(window).width() < 400) {
+				$(".cross").hide();
+				$(".menu").hide();
+				$(".hamburger").click(function() {
+					$(".menu").show();
+					$(".cross").show();
+					$(".hamburger").hide();
 
-						});
-						$(".cross").click(function() {
-							$(".cross").hide();
-							$(".menu1").hide();
-							$(".hamburger").show();
-						});
+				});
+				$(".cross").click(function() {
+					$(".cross").hide();
+					$(".menu").hide();
+					$(".hamburger").show();
+				});
+			}
 
-					});
+
+		});
 	</script>
 	<link rel="stylesheet" href="layout.css">
 
@@ -34,12 +36,16 @@
 	<header>
 
 		<nav>
-			<a href="index.html">Forside</a>
-			<a href="about.html">Om</a>
-			<a href="#aktiviteter">Aktiviteter</a>
-			<a href="#medlem">Medlem</a>
-			<a href="#kontakt">Kontakt</a>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+			<ul class="menu">
 
+				<li><a href="index.html">Forside</a> </li>
+				<li><a href="about.html">Om</a></li>
+				<li><a href="#aktiviteter">Aktiviteter</a></li>
+				<li><a href="#medlem">Medlem</a></li>
+				<li><a href="#kontakt">Kontakt</a></li>
+			</ul>
 		</nav>
 		<img src="img/logo.png" class="center" alt="img_logo">
 
@@ -134,7 +140,6 @@
 			<div class="link"></div>
 			<div class="link"></div>
 			<div class="link"></div>
-			>>>>>>> origin/master
 
 
 		</div>
