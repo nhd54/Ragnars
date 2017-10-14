@@ -1,731 +1,537 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-@font-face {
-	font-family: 'kf';
-	src: url('fonts/webfont/kellsflf-webfont.woff2') format('woff2'),
-	url('fonts/webfont/kellsflf-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-section {
-	padding: 10px 0;
-}
-
-ul {
-	list-style-type: none;
-	display: inline;
-
-}
-
-li {
-	display: inline;
-}
-
-.hamburger,
-.cross {
-	display: none;
-}
-
-
-/* HENVENDER SIG TIL FORSIDE SEKTIONEN */
-
-.sectionwrapper {
-	margin: auto 170px;
-	min-height: 600px;
-
-}
-
-.top_index {
-	display: flex;
-	flex-wrap: wrap;
-
-}
-
-.column_content {
-
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	margin-left: 10px;
-	padding-bottom: 10px;
-
-}
-
-.left {
-	flex-basis: 300px;
-	flex-grow: 1;
-}
-
-#om .left {
-	flex-basis: 500px;
-}
-
-.right {
-	flex-basis: 300px;
-	flex-grow: 1;
-}
-
-.bottom_index {
-	display: flex;
-	flex-wrap: wrap;
-
-	margin-top: 20px;
-}
-
-.column_wide {
-	margin-top: 50px;
-	flex-grow: 3;
-	margin-right: 10px;
-	flex-basis: 400px;
-	justify-content: flex-start;
-}
-
-#om .column_wide {
-	margin-left: 40px;
-}
-
-.column_narrow {
-
-	justify-content: flex-end;
-}
-
-.top {
-	background-color: blue;
-	flex-basis: 400px;
-	align-self: flex-start;
-}
-
-.bottom {
-	background-color: blue;
-	flex-basis: 400px;
-	align-self: flex-end;
-}
-
-header {
-	background-image: url(img/banner_baggrund.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-nav {
-	background-image: url(img/bjaelke.jpg);
-	background-size: cover;
-	background-position: center;
-	position: fixed;
-	margin-top: 5px;
-	width: 100%;
-	text-align: center;
-	font-family: 'kf';
-	font-size: 1.5em;
-	border-bottom: 3px solid rgba(253, 243, 191, 0.50);
-	border-top: 3px solid rgba(253, 243, 191, 0.50);
-
-
-}
-
-nav a {
-	margin-left: 60px;
-	text-decoration: none;
-	color: black;
-
-}
-
-nav a:hover {
-	color: white;
-}
-
-footer {
-
-	background-image: url(img/footer_baggrund.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 150px;
-	padding-top: 10px;
-
-
-}
-
-.so_me {
-
-	background-image: url(img/bjaelke.jpg);
-	background-repeat: no-repeat;
-	height: 52px;
-	flex-basis: 300px;
-	flex-grow: 1;
-	border-bottom: 3px solid rgba(253, 243, 191, 0.50);
-	border-top: 3px solid rgba(253, 243, 191, 0.50);
-
-}
-
-.so_me p {
-	width: 74%;
-	margin-left: 13%;
-}
-
-
-
-h2 {
-	font-family: 'kf';
-	font-size: 1.3em;
-	margin-top: 5px;
-	margin-left: 5px;
-}
-
-p {
-
-	font-family: 'calibri';
-	10px 10px 10px 0;
-	font-size: 1vw;
-
-}
-
-video {
-	width: 350px;
-	height: 197px;
-	border-top: 15px solid black;
-	border-bottom: 15px solid black;
-	margin-top: 50px;
-	margin-right: 8px;
-
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 60px;
-}
-
-
-header img {
-
-	width: 190px;
-	height: 150px;
-	padding-top: 40px;
-
-}
-
-img {
-	width: 100%;
-}
-
-.small_images {
-	width: 15%;
-}
-
-.ravn {
-
-	width: 200px;
-	height: 140px;
-	position: fixed;
-	right: -1px;
-	bottom: 10px;
-
-}
-
-.center {
-	display: block;
-	margin: 0 auto;
-}
-
-.column {
-	justify-content: space-between;
-
-	flex-basis: 24%;
-	margin-left: 0.8%;
-	margin-bottom: 20px;
-	height: 200px;
-
-}
-
-#om .column {
-	margin-left: 0;
-	flex-basis: 490px;
-
-}
-
-#om .column:last-child {
-	margin-left: 31px;
-}
-
-.person {
-	flex-basis: 328px;
-}
-
-.person:nth-child(2) {
-	margin: 0px 13px;
-}
-
-.column h2 {
-	text-align: center;
-}
-
-.column_context {
-	justify-content: space-between;
-	margin-right: 10px;
-
-}
-
-<<<<<<< HEAD .front_img {
-	margin-top: 10px;
-	margin-right: 10px;
-	width: 90%;
-}
-
-=======.front_img {}
-
-> > > > > > > origin/master .so_me {
-	text-align: center;
-}
-
-.so_me .fb {
-	width: 2vw;
-	flex-basis: 300px;
-	flex-grow: 1;
-	float: right;
-}
-
-=======
-/*----------------------------Media quary--------------------------------- */
-
-@media screen and (max-width: 400px) and (orientation: landscape) {}
-
-@media screen and (max-width: 400px) and (orientation: portrait) {
-	<<<<<<< HEAD .sectionwrapper {
-		margin: 0;
+	.farvekode1 {
+		background-color: #bfb488;
 	}
-	.column {
-		flex-basis: 400px;
-		margin-left: 0;
+
+	.farvekode2 {
+		background-color: #8c8c5e;
+	}
+
+	.farvekode3 {
+		background-color: #dde8cf;
+	}
+
+	.farvekode4 {
+
+		background-color: rgba(23, 25, 14, 0.38);
+		text-align: center;
+		font-size: 1vw;
+
+	}
+
+	.farvekode5 {
+		background-color: #756f4d;
+	}
+
+	.farvekode6 {
+		background-color: #fdf3bf;
+	}
+
+	.farvekode7 {
+		background-color: #0b0f0d;
+	}
+
+	.farvekode8 {
+		background-color: rgba(23, 25, 14, 0.38);
+
+	}
+
+
+
+
+
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	@font-face {
+		font-family: 'kf';
+		src: url('fonts/webfont/kellsflf-webfont.woff2') format('woff2'),
+		url('fonts/webfont/kellsflf-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+
+	}
+
+
+	section {
+		padding: 10px 0;
+
+		margin: 5px 160px;
+		;
+	}
+
+	ul {
+		list-style-type: none;
+		display: inline;
+
+	}
+
+	li {
+		display: inline;
+	}
+
+	.hamburger,
+	.cross {
+		display: none;
+	}
+
+
+	/* HENVENDER SIG TIL FORSIDE SEKTIONEN */
+
+	.top_index {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.sectionwrapper {
+
+		min-height: 600px;
+	}
+
+	.top_index {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 10px
 	}
 
 	.column_content {
+
+		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
-		margin-right: 10px;
+		margin-left: 10px;
+		padding-bottom: 10px;
+
 	}
 
-	video {
-		width: 100%;
-		margin-top: 125px;
+	.left {
+		flex-basis: 300px;
+		flex-grow: 2;
+		justify-content: flex-start;
 	}
+
+	#om .left {
+		flex-basis: 500px;
+	}
+
+	.right {
+		flex-basis: 200px;
+		flex-grow: 1;
+		justify-content: flex-end
+	}
+
+	.bottom_index {
+		display: flex;
+		flex-wrap: wrap;
+
+		margin-top: 20px;
+	}
+
+	.column_wide {
+
+		margin-top: 50px;
+		flex-grow: 3;
+		margin-right: 20px;
+		flex-basis: 400px;
+		justify-content: flex-start;
+
+	}
+
+	#om .column_wide {}
+
+	.column_narrow {
+
+		justify-content: flex-end;
+		flex-basis: 320px;
+	}
+
+	.top {
+		background-color: blue;
+		flex-basis: 400px;
+		align-self: flex-start;
+	}
+
+	.bottom {
+		background-color: blue;
+		flex-basis: 400px;
+		align-self: flex-end;
+	}
+
+	header {
+		background-image: url(img/banner_baggrund.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	nav {
+		background-image: url(img/bjaelke.jpg);
+		background-size: cover;
+		background-position: center;
+		position: fixed;
+		margin-top: 5px;
+		width: 100%;
+		text-align: center;
+		font-family: 'kf';
+		font-size: 1.5em;
+		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
+		border-top: 3px solid rgba(253, 243, 191, 0.50);
+
+
+	}
+
+	nav a {
+		margin-left: 60px;
+		text-decoration: none;
+		color: black;
+
+	}
+
+	nav a:hover {
+		color: white;
+	}
+
+	footer {
+
+		background-image: url(img/footer_baggrund.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 150px;
+		padding-top: 10px;
+
+
+	}
+
 
 
 
 
 	h2 {
+		font-family: 'kf';
+		font-size: 1.3em;
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	p {
+
+		font-family: 'calibri';
+		10px 10px 10px 0;
+		font-size: 1vw;
+
+	}
+
+
+
+	video {
+		width: 97.1%;
+		height: 100%;
+		border-top: 15px solid black;
+		border-bottom: 15px solid black;
+		margin-top: 50px;
+		margin-right: 8px;
+
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 60px;
+	}
+
+
+	header img {
+
+		width: 190px;
+		height: 150px;
+		padding-top: 40px;
+
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.small_images {
+		width: 15%;
+	}
+
+	.ravn {
+
+		width: 200px;
+		height: 140px;
+		position: fixed;
+		right: -1px;
+		bottom: 10px;
+
+	}
+
+	.center {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.column {
+		justify-content: space-between;
+
+		flex-basis: 24%;
+		margin-left: 0.8%;
+		margin-bottom: 20px;
+		height: 200px;
+
+	}
+
+	#om .column {
+		margin-left: 0;
+		flex-basis: 47.5%;
+
+	}
+
+	#om .bottom_index {
+		margin-left: 8px;
+	}
+
+	#om .column:last-child {
+		margin-left: 31px;
+	}
+
+	.person {
+		flex-basis: 31.9%;
+	}
+
+	.person:nth-child(2) {
+		margin: 0px 13px;
+	}
+
+	.column h2 {
 		text-align: center;
+	}
+
+	.column_context {
+		margin-right: 10px;
+
+	}
+
+	.front_img {
+		margin-top: 10px;
+	}
+
+	.so_me {
+		text-align: center;
+		background-image: url(img/bjaelke.jpg);
+		background-repeat: no-repeat;
+		height: 52px;
+		flex-basis: 300px;
+		flex-grow: 1;
+		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
+		border-top: 3px solid rgba(253, 243, 191, 0.50);
+
 	}
 
 	.so_me p {
-		text-align: center;
-		font-size: 0.62em;
+		width: 74%;
+		margin-left: 13%;
 	}
 
 	.so_me .fb {
-		width: 7vw;
+		width: 2vw;
 		flex-basis: 300px;
 		flex-grow: 1;
-	}
-
-
-	.hamburger,
-	.cross {
-		display: block;
-	}
-	h2 {
-		text-align: center;
-	}
-	.ravn {
-		bottom: 96px;
-		position: absolute;
-	}
-
-
-	li {
-		width: 85%;
-		display: block;
-		background-image: url(img/bjaelke.jpg);
-		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
-		border-top: 3px solid rgba(253, 243, 191, 0.50);
-
-	}
-	ul {
 		float: right;
-		width: 30%;
-		margin-top: 40px;
-	}
-
-	h2 {
-		text-align: center;
-	}
-
-	.hamburger,
-	.cross {
-		display: block;
-		position: fixed;
-		right: 17px;
-		background-color: black;
-		height: 25px;
-		border: none;
-		width: 25px;
-		color: white;
-		top: 20px;
-
-	}
-	h2 {
-		text-align: center;
 	}
 
 
-	nav {
-		border: none;
-		background-image: none;
-	}
+	/*----------------------------Media quary--------------------------------- */
 
-	nav a {
-		margin: 0;
-	}
-	.sectionwrapper {
-		margin: 0;
-	}
-	.column {
-		flex-basis: 400px;
-		margin-left: 0;
-	}
+	/*--------------------------Media quary slut------------------------------ */
 
-	.column_content {
-		width: 100%;
-		margin-right: 10px;
-	}
+	@media screen and (max-width:535px) {
+		section {
+			margin: 0;
+			padding: 0;
+		}
+		video {
+			width: 98.4%;
+			height: 100%;
+			margin: 50px 0 0 0;
+			border: none;
+		}
+		.column_narrow {
+			flex-basis: 630px;
+		}
+		.ravn {
+			width: 60px;
+			height: 70px;
+		}
 
-	video {
-		width: 100%;
-		margin-top: 125px;
-	}
+		.column {
+			flex-basis: 100%;
+
+		}
+		.column_content {
+			margin: 0;
+		}
+
+		.top_index {
+			margin: 0;
+		}
+		.column_wide {
+			margin: 15px 0;
+		}
+
+		.hamburger,
+		.cross {
+			display: block;
+			height: 30px;
+			width: 30px;
+			background-color: black;
+			color: white;
+			border: none;
 
 
-	.ravn {
-		bottom: 240px;
-		position: absolute;
-	}
-	.front_img {
-		margin-top: 10px;
-		margin-left: 125px;
-	}
+		}
 
-	h2 {
-		text-align: center;
-	}
+		li {
+			display: block;
+			font-size: 1.2em;
 
-	.hamburger,
-	.cross {
-		display: block;
-	}
-	h2 {
-		text-align: center;
-	}
-	.ravn {
-		bottom: 96px;
-		position: absolute;
-	}
-	.front_img {
-		margin-top: 10px;
-		margin-left: 125px;
-	}
+			margin: -7px;
+			background-image: url(img/bjaelke.png);
+			background-size: cover;
+			background-position: center;
+			height: 100%;
 
-	li {
-		width: 85%;
-		display: block;
-		background-image: url(img/bjaelke.jpg);
-		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
-		border-top: 3px solid rgba(253, 243, 191, 0.50);
 
-	}
-	ul {
-		float: right;
-		width: 30%;
-		margin-top: 40px;
-	}
 
-	h2 {
-		text-align: center;
-	}
+		}
 
-	.hamburger,
-	.cross {
-		display: block;
-		position: fixed;
-		right: 17px;
-		background-color: black;
-		height: 25px;
-		border: none;
-		width: 25px;
-		color: white;
-		top: 20px;
+		nav a {
+			color: white;
+
+		}
+
+		nav {
+			background-image: none;
+			border: none;
+		}
 
 	}
-	h2 {
-		text-align: center;
+
+
+
+	@media screen and (min-width:536px) and (max-width: 659px) {
+		#om .column {
+			flex-basis: 97%;
+		}
+
+		#om .column:last-child {
+			margin-left: 0;
+		}
+
+		#om bottom_index {
+			margin: 10px;
+		}
+
+		#om .column_content {
+			width: 108%;
+			margin-left: -2px;
+		}
+
+
+		.person {
+			flex-basis: 97%;
+			margin-top: 10px;
+		}
+		.person:nth-child(2) {
+			margin: 0;
+		}
+
+
+
+
 	}
 
-	nav {
-		border: none;
-		background-image: none;
-	}
-
-	nav a {
-		margin: 0;
-	}
-	=======.sectionwrapper {
-		margin: 0;
-	}
-	.column {
-		flex-basis: 400px;
-		margin-left: 0;
-	}
-
-	.column_content {
-		width: 100%;
-		margin-right: 10px;
-	}
-
-	video {
-		width: 100%;
-		margin-top: 125px;
-	}
+	@media screen and (min-width:660px) and (max-width: 1100px) {
 
 
-	.ravn {
-		bottom: 240px;
-		position: absolute;
-	}
-	.front_img {}
+		.sectionwrapper {
+			margin: 0;
+		}
 
-	h2 {
-		text-align: center;
-	}
+		.person {
+			flex-basis: 30.5%;
+		}
 
-	.hamburger,
-	.cross {
-		display: block;
-	}
-	h2 {
-		text-align: center;
-	}
-	.ravn {
-		bottom: 96px;
-		position: absolute;
-	}
-	.front_img {}
+		#om .column {
+			flex-basis: 98.7%;
+			margin: 10px 0;
+		}
 
-	li {
-		width: 85%;
-		display: block;
-		background-image: url(img/bjaelke.jpg);
-		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
-		border-top: 3px solid rgba(253, 243, 191, 0.50);
+		#om .column:last-child {
+			margin: 0;
+		}
 
-	}
-	ul {
-		float: right;
-		width: 30%;
-		margin-top: 40px;
-	}
+		.column_content {
+			width: 99%;
+			margin: 0;
+		}
 
-	h2 {
-		text-align: center;
-	}
+		#om .column_content {
+			width: 100%;
+		}
 
-	.hamburger,
-	.cross {
-		display: block;
-		position: fixed;
-		right: 17px;
-		background-color: black;
-		height: 25px;
-		border: none;
-		width: 25px;
-		color: white;
-		top: 20px;
+		#om .column_wide {
+			margin: 0;
+		}
+
+		.column_narrow {
+			flex-basis: 755px;
+		}
+
+		video {
+			width: 96.1%;
+			height: 100%;
+			margin: 100px auto;
+			border: none;
+		}
+
+		.column {
+			flex-basis: 49%;
+		}
+
+		.front_img {}
+
+		.ravn {
+			position: absolute;
+			bottom: 185px;
+		}
+
+		nav a {
+			margin-left: 20px;
+		}
 
 	}
-	h2 {
-		text-align: center;
+
+	@media screen and ( min-width:661px) and (max-width: 885px) {
+
+		.ravn {
+			position: fixed;
+			height: 120px;
+			width: 150px;
+		}
+		section {
+			margin: 5px 115px;
+		}
+
+		.column_wide {
+			margin-right: 0;
+		}
+
+		video {
+			width: 100%;
+			height: 100%;
+			margin: 40px 0;
+		}
 	}
-
-	nav {
-		border: none;
-		background-image: none;
-	}
-
-	nav a {
-		margin: 0;
-	}
-	> > > > > > > origin/master
-}
-
-@media screen and (min-width:401px) and (max-width: 768px) and (orientation: portrait) {
-	<<<<<<< HEAD .sectionwrapper {
-		margin: 0;
-	}
-
-	.column_content {
-		width: 100%;
-		margin: 0;
-	}
-
-	video {
-		width: 100%;
-		margin-top: 135px;
-	}
-
-	.column {
-		flex-basis: 49%;
-	}
-
-	.front_img {
-		margin: 50px 50px;
-	}
-
-	.ravn {
-		position: absolute;
-		bottom: 440px;
-	}
-}
-
-@media screen and (min-width:768px) and (max-width: 1024px) and (orientation: landscape) {
-	.sectionwrapper {
-		margin: 0;
-	}
-
-	.column_content {
-		width: 99%;
-		margin: 0;
-	}
-
-	video {
-		width: 65%;
-		height: 75%;
-		margin: 100px auto;
-		border: none;
-	}
-
-	.column {
-		flex-basis: 49%;
-	}
-
-	.front_img {
-		margin: 50px 50px;
-	}
-
-	.ravn {
-		position: absolute;
-		bottom: 185px;
-	}
-
-	.sectionwrapper {
-		margin: 0;
-	}
-
-	.column_content {
-		width: 100%;
-		margin: 0;
-	}
-
-	video {
-		width: 100%;
-		margin-top: 135px;
-	}
-
-	.column {
-		flex-basis: 49%;
-	}
-
-	.front_img {}
-
-	.ravn {
-		position: absolute;
-		bottom: 440px;
-	}
-}
-
-@media screen and (min-width:768px) and (max-width: 1024px) and (orientation: landscape) {
-	.sectionwrapper {
-		margin: 0;
-	}
-
-	.column_content {
-		width: 99%;
-		margin: 0;
-	}
-
-	video {
-		width: 65%;
-		height: 75%;
-		margin: 100px auto;
-		border: none;
-	}
-
-	.column {
-		flex-basis: 49%;
-	}
-
-	.front_img {}
-
-	.ravn {
-		position: absolute;
-		bottom: 185px;
-	}
-
-}
-
-@media screen and (min-width:401) and (max-width:768px) {}
-
-@media screen and (min-width: 1024px) and (max-width:2560px) {}
-
-@media screen and (min-resolution:192dpi) and (min-width:1025px) {}
-
-
-/*--------------------------Media quary slut------------------------------ */
-
-.farvekode1 {
-	background-color: #bfb488;
-}
-
-.farvekode2 {
-	background-color: #8c8c5e;
-}
-
-.farvekode3 {
-	background-color: #dde8cf;
-}
-
-.farvekode4 {
-
-	background-color: rgba(23, 25, 14, 0.38);
-	text-align: center;
-	font-size: 1vw;
-
-}
-
-.farvekode5 {
-	background-color: #756f4d;
-}
-
-.farvekode6 {
-	background-color: #fdf3bf;
-}
-
-.farvekode7 {
-	background-color: #0b0f0d;
-}
-
-.farvekode8 {
-	background-color: rgba(23, 25, 14, 0.38);
-
-}
