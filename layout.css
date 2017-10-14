@@ -474,6 +474,14 @@
 		}
 
 
+		nav a {
+			margin-left: 30px;
+		}
+
+		.column {
+			flex-basis: 49%;
+		}
+
 
 
 	}
