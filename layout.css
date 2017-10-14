@@ -417,6 +417,31 @@
 			border: none;
 		}
 
+		#om .bottom_index {
+			margin-left: 0;
+		}
+		#om .column {
+			flex-basis: 100%;
+		}
+
+		#om .column:last-child {
+			margin-left: 0;
+		}
+
+		.person {
+			flex-basis: 100%;
+		}
+
+		.person:nth-child(2) {
+			margin: 10px 0;
+		}
+
+		.ravn {
+			bottom: 123px;
+		}
+
+
+
 	}
 
 

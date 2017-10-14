@@ -2,97 +2,125 @@
 <html lang="da">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="layout.css">
-    <title>Om</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			if ($(window).width() < 535) {
+				$(".cross").hide();
+				$(".menu").hide();
+				$(".hamburger").click(function() {
+					$(".menu").show();
+					$(".cross").show();
+					$(".hamburger").hide();
+
+				});
+				$(".cross").click(function() {
+					$(".cross").hide();
+					$(".menu").hide();
+					$(".hamburger").show();
+				});
+			}
+
+
+		});
+
+	</script>
+	<link rel="stylesheet" href="layout.css">
+	<title>Om</title>
 
 </head>
 
-<body>
-    <header>
-        <nav>
-            <a href="index.html">Forside</a>
-            <a href="about.html">Om</a>
-            <a href="#aktiviteter">Aktiviteter</a>
-            <a href="#medlem">Medlem</a>
-            <a href="#kontakt">Kontakt</a>
+<body class="farvekode2">
+	<header>
+		<nav>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+			<ul class="menu">
 
-        </nav>
-        <img src="" alt="img_logo">
-    </header>
+				<li><a href="index.html">Forside</a> </li>
+				<li><a href="about.html">Om</a></li>
+				<li><a href="#aktiviteter">Aktiviteter</a></li>
+				<li><a href="#medlem">Medlem</a></li>
+				<li><a href="#kontakt">Kontakt</a></li>
+			</ul>
+		</nav>
+		<img src="img/logo.png" class="center" alt="img_logo">
 
-    <section id="om" class="farvekode2">
-        <div class="sectionwrapper farvekode3">
-            <div class="top_index">
-                <div class="column_narrow">
-                    <div class="column_content">
-                        <video controls>
+	</header>
+
+	<section id="om" class="farvekode2">
+		<div class="sectionwrapper farvekode3">
+			<div class="top_index">
+				<div class="column_narrow">
+					<div class="column_content">
+						<video controls>
 							<source src="video/ragnars_sonnerogdotre_grp30.mp4">
 						</video>
-                    </div>
+					</div>
 
 
-                </div>
+				</div>
 
 
-                <div class="column_wide">
-                    <div class="column_content farvekode8">
-                        <div class="column_context left">
-                            <h2>Asatro Ungdom</h2>
-                            <p>Ragnar Lodbrogs Sønner og Døtre er et fællesskab for unge under 18 med Nordisk Mytologi og Asatro som idégrundlag. Vores primære målgruppe er piger og drenge fra 10 - 14 år, men alle under 18 der ønsker det og har forældrenes samtykke kan blive medlem. </p>
+				<div class="column_wide">
+					<div class="column_content farvekode8">
+						<div class="column_context left">
+							<h2>Asatro Ungdom</h2>
+							<p>Ragnar Lodbrogs Sønner og Døtre er et fællesskab for unge under 18 med Nordisk Mytologi og Asatro som idégrundlag. Vores primære målgruppe er piger og drenge fra 10 - 14 år, men alle under 18 der ønsker det og har forældrenes samtykke kan blive medlem. </p>
 
-                            <p>Vi har dog en prøveperiode på 3 måneder så vi lige kan se om børnene passer ind eller evt har problemer der kræver mere professionel hjælp end hvad vi kan tilbyde. På sigt kan det komme på tale at inddele gruppen i flere aldersklasser, hvis der bliver behov for det. </p>
+							<p>Vi har dog en prøveperiode på 3 måneder så vi lige kan se om børnene passer ind eller evt har problemer der kræver mere professionel hjælp end hvad vi kan tilbyde. På sigt kan det komme på tale at inddele gruppen i flere aldersklasser, hvis der bliver behov for det. </p>
 
-                            <p>Vores mål er at skabe et fællesskab mellem unge mennesker gennem en blanding af spejder-relaterede aktiviteter, vikinge-kundskaber og færdigheder samt undervisning i nordisk mytologi, historie og kultur. Vi ønsker at bibringe unge mennesker en forståelse for Asatroen samt styrke deres evne og lyst til at tage ansvar for eget liv og deltage engageret i samfundet. </p>
-                            <p>Aktiviteterne vil i hovedsagen foregå i Harreskoven i sommerhalvåret. Der kan også blive tale om ekskursioner til forskellige relevante udflugtsmål som fks lejre forsøgscenter eller lignende. Bag Ragnar Lodbrogs Sønner og Døtre står Harreskovens Blótgilde. Et Godeord for Asatroende der blev grundlagt i 1996 og er godkendt af staten som religiøs menighed. Ragnar Lodbrogs Sønner og Døtre er en del a Harreskovens Blótgildes ungdomsarbejde men der er ingen krav om at hverken børnene eller deres forældre skal bekende sig til Asatroen. Vi tilbyder medlemmer af Ragnar Lodbrogs Sønner og Døtre at de kan deltage som blotgæster i ceremonier til de nordiske guder hvis de har lyst, men vi har ingen krav om det og respekterer naturligvis, hvis børnene har en anden religiøs baggrund. Ragnars Sønner og Døtre kan også tilbyde et alternativ til den kristne konfirmation.
-                                <p>Vi laver gerne en ungdomsinvielse når klassekammeraterne skal konfirmeres. Hos os handler det ikke om at bekræfte noget, men om at træde ind i de voksnes rækker. Derfor behøver det ikke have nogen betydning for den familiefest i holder. </p>
-                        </div>
+							<p>Vores mål er at skabe et fællesskab mellem unge mennesker gennem en blanding af spejder-relaterede aktiviteter, vikinge-kundskaber og færdigheder samt undervisning i nordisk mytologi, historie og kultur. Vi ønsker at bibringe unge mennesker en forståelse for Asatroen samt styrke deres evne og lyst til at tage ansvar for eget liv og deltage engageret i samfundet. </p>
+							<p>Aktiviteterne vil i hovedsagen foregå i Harreskoven i sommerhalvåret. Der kan også blive tale om ekskursioner til forskellige relevante udflugtsmål som fks lejre forsøgscenter eller lignende. Bag Ragnar Lodbrogs Sønner og Døtre står Harreskovens Blótgilde. Et Godeord for Asatroende der blev grundlagt i 1996 og er godkendt af staten som religiøs menighed. Ragnar Lodbrogs Sønner og Døtre er en del a Harreskovens Blótgildes ungdomsarbejde men der er ingen krav om at hverken børnene eller deres forældre skal bekende sig til Asatroen. Vi tilbyder medlemmer af Ragnar Lodbrogs Sønner og Døtre at de kan deltage som blotgæster i ceremonier til de nordiske guder hvis de har lyst, men vi har ingen krav om det og respekterer naturligvis, hvis børnene har en anden religiøs baggrund. Ragnars Sønner og Døtre kan også tilbyde et alternativ til den kristne konfirmation.
+								<p>Vi laver gerne en ungdomsinvielse når klassekammeraterne skal konfirmeres. Hos os handler det ikke om at bekræfte noget, men om at træde ind i de voksnes rækker. Derfor behøver det ikke have nogen betydning for den familiefest i holder. </p>
+						</div>
 
-                    </div>
+					</div>
 
-                </div>
-            </div>
+				</div>
+			</div>
 
-            <div class="bottom_index">
-                <div class="column farvekode8"></div>
-                <div class="column farvekode8"></div>
-
-
-
-            </div>
-
-
-            <div class="bottom_index">
-                <div class="person farvekode8"><img src="img/patrick_billede_ubj%C3%A6lke.png"> </div>
-                <div class="person farvekode8"><img src="img/patrick_billede_ubj%C3%A6lke.png"> </div>
-                <div class="person farvekode8"><img src="img/patrick_billede_ubj%C3%A6lke.png"> </div>
-            </div>
+			<div class="bottom_index">
+				<div class="column farvekode8"></div>
+				<div class="column farvekode8"></div>
 
 
 
-
-        </div>
-
+			</div>
 
 
-        <img src="img/ravn.png" class="ravn">
-    </section>
-    <footer>
-        <img src="" alt="img_illustration">
-        <div class="so_me">
-
-            <div class="link">facebook</div>
-            <div class="link"></div>
-            <div class="link"></div>
-            <div class="link"></div>
-            <div class="link"></div>
+			<div class="bottom_index">
+				<div class="person farvekode8"><img src="img/patrick_billede_ubj%C3%A6lke.png"> </div>
+				<div class="person farvekode8"><img src="img/patrick_billede_ubj%C3%A6lke.png"> </div>
+				<div class="person farvekode8"><img src="img/patrick_billede_ubj%C3%A6lke.png"> </div>
+			</div>
 
 
-        </div>
 
 
-    </footer>
+		</div>
+
+
+
+		<img src="img/ravn.png" class="ravn">
+	</section>
+	<footer>
+		<img src="" alt="img_illustration">
+		<div class="so_me">
+
+			<div class="link">facebook</div>
+			<div class="link"></div>
+			<div class="link"></div>
+			<div class="link"></div>
+			<div class="link"></div>
+
+
+		</div>
+
+
+	</footer>
 
 
 
