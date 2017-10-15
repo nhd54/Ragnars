@@ -14,7 +14,7 @@
 
 		background-color: rgba(23, 25, 14, 0.38);
 		text-align: center;
-		font-size: 1vw;
+		font-size: 1em;
 
 	}
 
@@ -218,7 +218,7 @@
 
 		font-family: 'calibri';
 		10px 10px 10px 0;
-		font-size: 1vw;
+		font-size: 1em;
 
 	}
 
@@ -260,7 +260,7 @@
 
 	.ravn {
 
-		width: 200px;
+		width: 170px;
 		height: 140px;
 		position: fixed;
 		right: -1px;
@@ -305,6 +305,12 @@
 		margin: 0px 13px;
 	}
 
+	.person img {
+		width: 100%;
+		height: 50%;
+
+	}
+
 	.column h2 {
 		text-align: center;
 	}
@@ -322,7 +328,6 @@
 		text-align: center;
 		background-image: url(img/bjaelke.jpg);
 		background-repeat: no-repeat;
-		height: 52px;
 		flex-basis: 300px;
 		flex-grow: 1;
 		border-bottom: 3px solid rgba(253, 243, 191, 0.50);
@@ -330,16 +335,27 @@
 
 	}
 
-	.so_me p {
-		width: 74%;
-		margin-left: 13%;
+	.so_me_wrapper {
+		width: auto;
+		max-width: 1024px;
+		margin: 0 auto;
 	}
 
+	.so_me p {
+		font-size: 1em;
+		font-family: 'kf';
+	}
+
+
 	.so_me .fb {
-		width: 2vw;
+		width: 35px;
+		height: 35px;
 		flex-basis: 300px;
-		flex-grow: 1;
 		float: right;
+		margin-top: -8px;
+		margin-left: 30px;
+
+
 	}
 
 
